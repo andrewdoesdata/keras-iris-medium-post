@@ -27,5 +27,5 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 
 # 4c) Fit the model
 model.fit(input_x, output_y, epochs=150, batch_size=15, verbose=1)
-score = model.evaluate(input_x, output_y, batch_size=128)
+score = model.evaluate(input_x, output_y, batch_size=15)
 score
